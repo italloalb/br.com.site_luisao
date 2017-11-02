@@ -47,12 +47,17 @@ ul#nav_topo a{
     text-decoration: none;
     color: #2B292A;
     font-size: 16.5px;
+    padding-bottom: 4px;
 }
 
 ul#nav_topo a:hover{
     color: #0BA4C6;
-    border-bottom: 2px solid #0BA4C6;
-    transition: .1s;
+    border-bottom: 2.5px solid #0BA4C6;
+}
+
+ul#nav_topo a.ativa{
+    color: #086B7C;
+    border-bottom: 2.5px solid #086B7C;
 }
 
 
@@ -66,4 +71,20 @@ ul#nav_topo a:hover{
 
 .topo_content h1{
     text-align: center;
+    padding: 30px 0px 0px 0px;
+    font-family: Lato;
+    font-size: 45px;
+    color: #0BA4C6;
+}
+
+.topo_content h2{
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 10px;
+}
+
+.topo_content h2 a{
+    text-decoration: none;
+    color: #0BA4C6;
 }

@@ -47,12 +47,17 @@ ul#nav_topo a{
     text-decoration: none;
     color: #2B292A;
     font-size: 16.5px;
+    padding-bottom: 4px;
 }
 
 ul#nav_topo a:hover{
     color: #0BA4C6;
-    border-bottom: 2px solid #0BA4C6;
-    transition: .1s;
+    border-bottom: 2.5px solid #0BA4C6;
+}
+
+ul#nav_topo a.ativa{
+    color: #086B7C;
+    border-bottom: 2.5px solid #086B7C;
 }
 
 
