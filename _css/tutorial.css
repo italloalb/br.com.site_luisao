@@ -9,6 +9,7 @@
 body{
     margin: 0px;
     font-family: Lato;
+    background-image: url("../_images/bg-branco.png");
 }
 
 div#header{
@@ -16,6 +17,7 @@ div#header{
     height: 220px;
     display: block;
     background-image: url("../_images/bg_header.png");
+    box-shadow: 0px 20px 60px rgba(0,0,0,.3);
     margin: -21px 0px 0px 0px;
 }
 
@@ -64,7 +66,6 @@ ul#nav_topo a.ativa{
 /* -------------------------- CSS CONTENT ----------------------- */
 
 .content{
-    background-image: url("../_images/bg-branco.png");
     width: 100%;
     height: 800px;
 }
@@ -87,4 +88,56 @@ ul#nav_topo a.ativa{
 .topo_content h2 a{
     text-decoration: none;
     color: #0BA4C6;
+}
+
+.container{
+    margin: 35px 0px 0px 40px;
+    width: 1270px;
+}
+
+.box_tutorial{
+    margin: 0px 0px 0px 10px;
+    width: 400px;
+    height: 400px;
+    background-color: #F5F5F5;
+    border: 3px solid white;
+    float: left;
+}
+
+.box_tutorial h1{
+    padding: 10px 10px;
+    text-align: justify;
+    font-family: Roboto;
+}
+
+.box_tutorial img{
+    padding: 0px 10px;
+}
+
+.box_tutorial p{
+    padding: 10px 10px;
+    font-family: Roboto;
+    font-size: 13.5px;
+    line-height: 1.3;
+}
+
+.box_tutorial a{
+    text-decoration: none;
+}
+
+.box_tutorial .botton{
+    margin: 10px 0px 0px 180px;
+    text-align: center;
+    width: 177px;
+    display: block;
+    background-color: #0BA4C6;
+    color: white;
+    font-family: Roboto;
+    font-size: 16.5px;
+    border-radius: 10px;
+}
+
+.box_tutorial .botton:hover {
+    background-color: #17BBCC;
+    cursor: pointer;
 }
