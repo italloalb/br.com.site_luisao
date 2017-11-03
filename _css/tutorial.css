@@ -86,6 +86,7 @@ div#box_social{
 
 .icon img#twitter{
     background-color: black;
+    border-radius: 15px;
 }
 
 .icon img#twitter:hover{
@@ -96,6 +97,7 @@ div#box_social{
 
 .icon img#facebook{
     background-color: black;
+    border-radius: 15px;
 }
 
 .icon img#facebook:hover{
@@ -106,6 +108,7 @@ div#box_social{
 
 .icon img#google-plus{
     background-color: black;
+    border-radius: 15px;
 }
 
 .icon img#google-plus:hover{
@@ -148,7 +151,7 @@ div#box_social{
 .box_tutorial{
     margin: 0px 0px 0px 10px;
     width: 400px;
-    height: 400px;
+    height: 420px;
     background-color: #F5F5F5;
     border: 3px solid white;
     float: left;
@@ -164,34 +167,32 @@ div#box_social{
     padding: 0px 10px;
 }
 
-.box_tutorial p{
-    padding: 10px 10px;
+.box-descricao{
+    width: 100%;
+    height: 150px;
+}
+
+.box-descricao p{
     font-family: Roboto;
-    font-size: 13.5px;
-    line-height: 1.3;
+    padding: 10px 10px;
+    line-height: 1.5;
 }
 
 .box_tutorial a{
-    text-decoration: none;
-}
-
-.box_tutorial .botton{
-    margin: 10px 0px 0px 180px;
-    text-align: center;
-    width: 177px;
-    display: block;
-    background-color: #0BA4C6;
+    position: absolute;
+    margin: 30px 0px 0px 250px;
     color: white;
-    font-family: Roboto;
-    font-size: 16.5px;
-    border-radius: 10px;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #0BA4C6;
+    padding: 10px 20px;
+    border-radius: 15px;
 }
 
-.box_tutorial .botton:hover {
-    background-color: #17BBCC;
-    cursor: pointer;
+.box_tutorial a:hover{
+    background-color: #13C5E2;
 }
-
 
 /* -------------------------- CSS RODAPÉ ----------------------- */
 
@@ -199,6 +200,7 @@ div#box_social{
     width: 100%;
     height: 200px;
     background-color: #1B1B1B;
+    border-top: 3px solid #0BA4C6;
 }
 
 ul#nav_rodape{
