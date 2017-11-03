@@ -7,7 +7,6 @@
 /* -------------------------- CSS HEADER ----------------------- */
 
 body{
-    margin: 0px;
     font-family: Lato;
     background-image: url("../_images/bg-branco.png");
     background-attachment: fixed;
@@ -15,21 +14,23 @@ body{
 }
 
 div#header{
+    position: relative;
     width: 100%;
-    height: 220px;
+    height: 170px;
     display: block;
     background-image: url("../_images/bg_header.png");
     box-shadow: 0px 20px 60px rgba(0,0,0,.3);
-    margin: -21px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    clear: left;
 }
 
 div#header h1 img{
     position: relative;
-    padding: 18px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 div#header h1{
-    padding: 15px 0px 0px 80px;
+    padding: 2px 0px 0px 80px;
     display: block;
     float: left;
 }
@@ -39,7 +40,7 @@ ul#nav_topo{
     padding-left: 0px;
     float: left;
     margin-left: 420px;
-    padding-top: 155px;
+    padding-top: 105px;
 }
 
 ul#nav_topo li{
@@ -64,6 +65,53 @@ ul#nav_topo a.ativa{
     border-bottom: 2.5px solid #086B7C;
 }
 
+div#box_social{
+    position: absolute;
+    float: left;
+    width: 150px;
+    height: 40px;
+    margin: 20px 0px 0px 1180px;
+}
+
+.icon{
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+
+}
+
+.icon img#twitter{
+    background-color: black;
+}
+
+.icon img#twitter:hover{
+    cursor: pointer;
+    background-color: #0BA4C6;
+    transition: .2s;
+}
+
+.icon img#facebook{
+    background-color: black;
+}
+
+.icon img#facebook:hover{
+    cursor: pointer;
+    background-color: #3B5998;
+    transition: .2s;
+}
+
+.icon img#google-plus{
+    background-color: black;
+}
+
+.icon img#google-plus:hover{
+    cursor: pointer;
+    background-color: #F34A38;
+    transition: .2s;
+}
 
 /* -------------------------- CSS SLIDER ----------------------- */
 
@@ -286,8 +334,8 @@ ul#nav_rodape a:hover{
 .back-to-top{
     background-image: url("../_images/back-to-top-botton.png");
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     position: fixed;
     bottom: 10px;
     right: 20px;
@@ -295,5 +343,5 @@ ul#nav_rodape a:hover{
 
 .back-to-top:hover{
     cursor: pointer;
-    background-position: 0 -60px;
+    background-position: 0 -40px;
 }
