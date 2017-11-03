@@ -4,12 +4,14 @@
     padding: 0;
 }
 
-/* -------------------------- CSS HEADER ----------------------- */
+/* -------------------------- CSS BODY ----------------------- */
 
 body{
     font-family: Lato;
     clear: left;
 }
+
+/* -------------------------- CSS HEADER ----------------------- */
 
 div#header{
     position: relative;
@@ -17,6 +19,7 @@ div#header{
     height: 170px;
     display: block;
     background-image: url("../_images/bg_header.png");
+    border-bottom: 2px solid #0BA4C6;
     box-shadow: 0px 20px 60px rgba(0,0,0,.3);
     margin: 0px 0px 0px 0px;
     clear: left;
@@ -24,7 +27,7 @@ div#header{
 
 div#header h1 img{
     position: relative;
-    padding: 0px 0px 0px 0px;
+    padding: 4px 0px 0px 0px;
 }
 
 div#header h1{
@@ -48,19 +51,17 @@ ul#nav_topo li{
 
 ul#nav_topo a{
     text-decoration: none;
-    color: #2B292A;
+    color: white;
     font-size: 16.5px;
     padding-bottom: 4px;
 }
 
 ul#nav_topo a:hover{
-    color: #0BA4C6;
-    border-bottom: 2.5px solid #0BA4C6;
+    border-bottom: 2.5px solid white;
 }
 
 ul#nav_topo a.ativa{
-    color: #086B7C;
-    border-bottom: 2.5px solid #086B7C;
+    border-bottom: 2.5px solid #0BA4C6;
 }
 
 div#box_social{
@@ -123,7 +124,7 @@ div#box_social{
 
 
 *{
-    margin: 0px;
+    margin: -1px;
     padding: 0px;
 }
 
@@ -208,24 +209,43 @@ div#box_social{
     content: '>';
 }
 
-.flex-caption h1{
-    font-family: "Roboto Lt";
+.flex-caption h1#h1slide1{
+    font-family: Roboto;
     position: absolute;
     top: 30%;
     text-align: center;
     width: 100%;
-    font-size: 45px;
+    font-size: 30px;
     color: white;
 }
 
-.flex-caption p{
+.flex-caption h2#h2slide1{
     font-family: Roboto;
+    text-transform: uppercase;
     position: absolute;
     top: 40%;
     text-align: center;
     width: 100%;
-    font-size: 30px;
+    font-size: 40px;
     color: white;
+}
+
+.flex-caption a{
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 55%;
+    left: 43%;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 25px;
+
+}
+
+.flex-caption a:hover{
+    background-color: white;
+    color: inherit;
 }
 
 /* -------------------------- CSS CONTENT1 ----------------------- */
