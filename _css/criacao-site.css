@@ -1,6 +1,6 @@
 /* -------------------------- RESET ----------------------- */
 *{
-    margin: 0;
+    margin: -1px;
     padding: 0;
 }
 
@@ -40,13 +40,13 @@ ul#nav_topo{
     list-style: none;
     padding-left: 0px;
     float: left;
-    margin-left: 420px;
-    padding-top: 105px;
+    margin-left: 380px;
+    padding-top: 110px;
 }
 
 ul#nav_topo li{
     display: inline-block;
-    margin: 15px;
+    margin: 10px;
 }
 
 ul#nav_topo a{
