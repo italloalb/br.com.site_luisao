@@ -161,7 +161,7 @@ ul#nav_topo-menor a.ativa{
 
 .content{
     width: 100%;
-    height: 800px;
+    height: 1100px;
     background-image: url("../_images/bg-branco.png");
 }
 
@@ -183,6 +183,42 @@ ul#nav_topo-menor a.ativa{
 .topo_content h2 a{
     text-decoration: none;
     color: #0BA4C6;
+}
+
+.miolo_content{
+    margin: 20px 100px 0px 100px;
+}
+
+.miolo_content img{
+    margin: 30px 0px 20px 400px;
+}
+
+.miolo_content h1{
+    margin: 20px 0px 0px 20px;
+    text-align: justify;
+    color: #666;
+    font-family: Roboto;
+    font-size: 23px;
+}
+
+.miolo_content p{
+    padding: 15px 20px 0px 20px;
+    color: #666666;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 60px;
+
+}
+
+.miolo_content li{
+    text-align: justify;
+    color: #666;
+    font-family: Roboto;
+    font-size: 15px;
+    text-indent: 60px;
+    line-height: 1.5;
 }
 
 /* -------------------------- CSS RODAPÉ ----------------------- */
@@ -223,3 +259,21 @@ ul#nav_rodape a:hover{
     font-size: 12px;
     color: #4C4C4C;
 }
+
+/* -------------------------- BACK-TO-TOP ----------------------- */
+
+.back-to-top{
+    background-image: url("../_images/back-to-top-botton.png");
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+.back-to-top:hover{
+    cursor: pointer;
+    background-position: 0 -40px;
+}
+
