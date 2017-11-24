@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="_css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="_css/index.css">
+    <link rel="stylesheet" href="_css/animate.css">
     <script src="_js/back-to-top.js"></script>
     <script src="_js/menu-menor.js"></script>
     <script src="_js/jquery.flexslider.js"></script>
+    <script src="_js/size-control.js"></script>
+
+
 
     <script type="text/javascript" charset="utf-8">
         $(window).load(function() {
             $('.flexslider').flexslider();
         });
     </script>
+
     <title>Site do Luisão WebMaster</title>
+
 </head>
 
-<body>
+<body class="body">
 
 <div id="header">
     <h1><a href="index.html"><img src="_images/logo.png"> </a></h1>
@@ -42,6 +49,11 @@
         </div>
     </div>
 
+    <div class="size-control">
+        <label id="btnAumentar" title="Aumentar tamanho da fonte">A<sup>+</sup></label>
+        <label id="btnDiminuir" title="Diminuir tamanho da fonte">A<sup>-</sup></label>
+    </div>
+
 </div>
 
 <div id="header-menor">
@@ -63,14 +75,16 @@
             <section class="flex-caption">
                 <h1 id="h1slide1">Seu site adaptado para qualquer tela</h1>
                 <h2 id="h2slide1">Criação de sites responsivos</h2>
-                <a href="#">Pedir orçamento</a>
+                <a id="aslide1" href="#">Pedir orçamento</a>
             </section>
         </li>
         <li>
             <img src="_images/_slider/slide2.jpg" />
             <section class="flex-caption">
-                <h1>Titulo Imagem 2</h1>
-                <h2>Descrição imagem 2</h2>
+                <h1 id="h1slide2">ENTRE EM CONTATO E SOLICITE SEU ORÇAMENTO</h1>
+                <h2 id="h2slide2">PERSONALIZADO</h2>
+                <h3 id="h3slide2">[</h3>
+                <h4 id="h4slide2">]</h4>
             </section>
         </li>
         <li>
@@ -159,7 +173,5 @@
 
 <div class="back-to-top" title="Voltar ao topo"></div>
 <script src="//api.handtalk.me/plugin/latest/handtalk.min.js"></script>
-
-
 </body>
 </html>

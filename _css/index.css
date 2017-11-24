@@ -64,12 +64,29 @@ ul#nav_topo a.ativa{
     border-bottom: 2.5px solid #0BA4C6;
 }
 
+.size-control{
+    position: absolute;
+    float: inherit;
+    margin: 30px 0px 0px 1230px;
+}
+
+.size-control label{
+    font-family: Roboto;
+    font-size: 20px;
+    margin: 0px 0px 0px 8px;
+    cursor: pointer;
+}
+
+.size-control label:hover{
+    color: #0BA4C6;
+}
+
 div#box_social{
     position: absolute;
     float: left;
     width: 150px;
     height: 40px;
-    margin: 20px 0px 0px 1180px;
+    margin: 30px 0px 0px 1100px;
 }
 
 .icon{
@@ -114,6 +131,8 @@ div#box_social{
     background-color: #F34A38;
     transition: .2s;
 }
+
+
 
 /* -------------------------- CSS HEADER-MENOR ----------------------- */
 
@@ -261,7 +280,6 @@ ul#nav_topo-menor a.ativa{
     font-size: 30px;
     color: white;
 }
-
 .flex-caption h2#h2slide1{
     font-family: Roboto;
     text-transform: uppercase;
@@ -273,7 +291,7 @@ ul#nav_topo-menor a.ativa{
     color: white;
 }
 
-.flex-caption a{
+.flex-caption a#aslide1{
     position: absolute;
     text-align: center;
     text-decoration: none;
@@ -286,10 +304,54 @@ ul#nav_topo-menor a.ativa{
 
 }
 
-.flex-caption a:hover{
+.flex-caption a#aslide1:hover{
     background-color: white;
     color: inherit;
 }
+
+
+.flex-caption h1#h1slide2{
+    font-family: "Lato";
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+
+}
+
+.flex-caption h2#h2slide2{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 42%;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    color: #0BA4C6;
+}
+
+.flex-caption h3#h3slide2{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 28%;
+    font-size: 155px;
+    color: white;
+    margin:  0px 0px 0px 260px;
+}
+
+.flex-caption h4#h4slide2{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 28%;
+    font-size: 155px;
+    color: white;
+    margin:  0px 0px 0px 1030px;
+}
+
 
 /* -------------------------- CSS CONTENT1 ----------------------- */
 
@@ -470,7 +532,7 @@ ul#nav_rodape a:hover{
     width: 40px;
     height: 40px;
     position: fixed;
-    bottom: 10px;
+    bottom: 30px;
     right: 20px;
 }
 
