@@ -231,9 +231,12 @@ ul#nav_topo-menor a.ativa{
 
 #troca_pagina a:hover{
     color: #0BA4C6;
-    text-decoration: underline;
 }
 
+#troca_pagina a.ativa{
+    border-bottom: 1px solid #0BA4C6;
+    color: #0BA4C6;
+}
 /* -------------------------- CSS RODAPÉ ----------------------- */
 
 .rodape{
