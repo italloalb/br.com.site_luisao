@@ -1,194 +1,200 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <link rel="stylesheet" href="_css/javascript-tutorial.css">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=lato" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="_js/menu-menor.js"></script>
 <script src="_js/back-to-top.js"></script>
+<script src="_js/size-control.js"></script>
 
-<title>Tutorial Java Script | Luisão WebMaster</title>
+<title>tutorial java script | luisão webmaster</title>
 </head>
-<body>
+<body class="body">
 
 <div id="header">
 <h1><a href="index.html"><img src="_images/logo.png"> </a></h1>
 <ul id="nav_topo">
-    <li><a href="index.html">INICIO</a></li>
-    <li><a href="tutorial.html" class="ativa">TUTORIAIS</a></li>
-    <li><a href="ferramentas-seo.html">FERRAMENTAS SEO</a></li>
-    <li><a href="#">SOLUÇÕES</a></li>
-    <li><a href="quemsou.html">QUEM SOU</a></li>
-    <li><a href="#">CONTATO</a></li>
+<li><a href="index.html">inicio</a></li>
+<li><a href="tutorial.html" class="ativa">tutoriais</a></li>
+<li><a href="ferramentas-seo.html">ferramentas seo</a></li>
+<li><a href="#">soluções</a></li>
+<li><a href="quemsou.html">quem sou</a></li>
+<li><a href="#">contato</a></li>
 </ul>
 
 <div id="box_social">
-    <div class="icon">
-        <img src="_images/social_twitter.png" id="twitter" title="Acesse nosso Twitter">
-    </div>
-    <div class="icon">
-        <img src="_images/social_facebook.png " id="facebook" title="Acesse nosso Facebook">
-    </div>
-    <div class="icon">
-        <img src="_images/social_googleplus.png" id="google-plus" title="Acesse nosso Google+">
-    </div>
+<div class="icon">
+    <img src="_images/social_twitter.png" id="twitter" title="acesse nosso twitter">
+</div>
+<div class="icon">
+    <img src="_images/social_facebook.png " id="facebook" title="acesse nosso facebook">
+</div>
+<div class="icon">
+    <img src="_images/social_googleplus.png" id="google-plus" title="acesse nosso google+">
+</div>
+</div>
+
+<div class="size-control">
+    <label class="btnaumentar" title="aumentar tamanho da fonte">a<sup>+</sup></label>
+    <label class="btndiminuir" title="diminuir tamanho da fonte">a<sup>-</sup></label>
 </div>
 </div>
 
 <div id="header-menor">
 <ul id="nav_topo-menor">
-    <li><a href="index.html">INICIO</a></li>
-    <li><a href="tutorial.html" class="ativa">TUTORIAIS</a></li>
-    <li><a href="ferramentas-seo.html">FERRAMENTAS SEO</a></li>
-    <li><a href="#">SOLUÇÕES</a></li>
-    <li><a href="quemsou.html">QUEM SOU</a></li>
-    <li><a href="#">CONTATO</a></li>
+<li><a href="index.html">inicio</a></li>
+<li><a href="tutorial.html" class="ativa">tutoriais</a></li>
+<li><a href="ferramentas-seo.html">ferramentas seo</a></li>
+<li><a href="#">soluções</a></li>
+<li><a href="quemsou.html">quem sou</a></li>
+<li><a href="#">contato</a></li>
 </ul>
 </div>
 
 <div class="content">
 <div class="topo_content">
-    <h1>Tutorial Java Script</h1>
-    <h2>Você está em: <a href="javascript-tutorial.html">Tutoriais</a> &gt&gt <b>Tutorial Java Script</b></h2>
+<h1>tutorial java script</h1>
+<h2>você está em: <a href="javascript-tutorial.html">tutoriais</a> &gt&gt <b>tutorial java script</b></h2>
 </div>
 
 <div class="miolo_content">
-    <img src="_images/javascript_1.png">
+<img src="_images/javascript_1.png">
 
 
-    <h1>Mensagens</h1>
+<h1>mensagens</h1>
 
-    <p>
-        Existem três formas de comunicação com o usuário através de mensagens:
-        </br>
-        </br>
-
-        <code>
-        alert ( mensagem )
-        </code>
-
-        </br>
-        </br>
-
-        Ex:
-        </br>
-
-        <code>
-        alert ("Certifique-se de que as informações estão corretas")
-        </code>
-
-        </br>
-        </br>
-        Mensagem que retorna confirmação de OK ou CANCELAR:
-
-        </br>
-        </br>
-
-        <code>
-            confirm (mensagem)
-        </code>
-
-        </br>
-        </br>
-
-        Ex:
-        </br>
-
-        <code>
-        if (confirm ("Algo está errado...devo continuar??"))</br>
-        { alert("Continuando") }</br>
-        else</br>
-        { alert("Parando") }</br>
-        </code>
-
-        </br>
-        Recebe mensagem via caixa de texto Input:
-        </br>
-        </br>
-
-        <code>
-        Receptor = prompt ("Minha mensagem", "Meu texto")
-        </code>
-
-        </br>
-        </br>
-
-        Receptor é o campo que vai receber a informação digitada pelo usuário
-        Minha mensagem é a mensagem que vai aparecer como Label da caixa de input
-        Meu texto é um texto, opcional, que aparecerá na linha de digitação do usuário.
-
-        </br>
-        </br>
-
-        Ex:
-
-        </br>
-
-        <code>
-        Entrada = prompt("Informe uma expressão matemática", "")</br>
-        Resultado = eval(Entrada)</br>
-        document.write("O resultado é = " + Resultado)</br>
-        </code>
-    </p>
-
-        </br>
-        </br>
-
-    <hr>
-
-    <h1>Criando Funções</h1>
-
-    <p>
-        Uma função é um set de instruções, que só devem ser executadas quando a função for acionada.</br>
-
-        A sintaxe geral é a seguinte:</br>
-
-        <code>
-        function NomeFunção (Parâmetros)</br>
-        { Ação }</br>
-        </code>
-
-        </br>
-        Suponha uma função que tenha como objetivo informar se uma pessoa é maior ou menor de idade, recebendo como parâmetro a sua idade.
-
-        </br>
-        </br>
-
-        <code>
-        function Idade (Anos) { </br>
-        if (Anos > 17) </br>
-        { alert ("Maior de Idade") } </br>
-        else </br>
-        { alert ("menor de Idade") } </br>
-        } </br>
-        </code>
-
-        </br>
-        </br>
-
-        Para acionar esta função, suponha uma caixa de texto, em um formulário, na qual seja informada a idade e, a cada informação, a função seja acionada.
-
-        </br>
-        </br>
+<p>
+    existem três formas de comunicação com o usuário através de mensagens:
+    </br>
+    </br>
 
     <code>
-    &ltform&gt &ltinput type=text size=2 maxlength=2 name="Tempo" onchange="Idade(Tempo.value)"&gt &lt/form&gt
+    alert ( mensagem )
     </code>
 
-        </br>
-        </br>
-        Observe-se que o parâmetro passado (quando ocorre o evento "onchange") foi o conteúdo da caixa de texto "Tempo" (propriedade "value") e que, na função, chamamos de "Anos". Ou seja, não existe co-relação entre o nome da variável passada e a variável de recepção na função. Apenas o conteúdo é passado.
-    </p>
+    </br>
+    </br>
 
+    ex:
+    </br>
+
+    <code>
+    alert ("certifique-se de que as informações estão corretas")
+    </code>
+
+    </br>
+    </br>
+    mensagem que retorna confirmação de ok ou cancelar:
 
     </br>
     </br>
 
-    <p id="troca_pagina"> <a href="javascript-tutorial.html">1</a> / <a href="javascript-tutorial_2.html">2</a> / <a href="javascript-tutorial_2.html" class="ativa">3</a>
-        </br>
-        </br>
-    </p>
+    <code>
+        confirm (mensagem)
+    </code>
+
+    </br>
+    </br>
+
+    ex:
+    </br>
+
+    <code>
+    if (confirm ("algo está errado...devo continuar??"))</br>
+    { alert("continuando") }</br>
+    else</br>
+    { alert("parando") }</br>
+    </code>
+
+    </br>
+    recebe mensagem via caixa de texto input:
+    </br>
+    </br>
+
+    <code>
+    receptor = prompt ("minha mensagem", "meu texto")
+    </code>
+
+    </br>
+    </br>
+
+    receptor é o campo que vai receber a informação digitada pelo usuário
+    minha mensagem é a mensagem que vai aparecer como label da caixa de input
+    meu texto é um texto, opcional, que aparecerá na linha de digitação do usuário.
+
+    </br>
+    </br>
+
+    ex:
+
+    </br>
+
+    <code>
+    entrada = prompt("informe uma expressão matemática", "")</br>
+    resultado = eval(entrada)</br>
+    document.write("o resultado é = " + resultado)</br>
+    </code>
+</p>
+
+    </br>
+    </br>
+
+<hr>
+
+<h1>criando funções</h1>
+
+<p>
+    uma função é um set de instruções, que só devem ser executadas quando a função for acionada.</br>
+
+    a sintaxe geral é a seguinte:</br>
+
+    <code>
+    function nomefunção (parâmetros)</br>
+    { ação }</br>
+    </code>
+
+    </br>
+    suponha uma função que tenha como objetivo informar se uma pessoa é maior ou menor de idade, recebendo como parâmetro a sua idade.
+
+    </br>
+    </br>
+
+    <code>
+    function idade (anos) { </br>
+    if (anos > 17) </br>
+    { alert ("maior de idade") } </br>
+    else </br>
+    { alert ("menor de idade") } </br>
+    } </br>
+    </code>
+
+    </br>
+    </br>
+
+    para acionar esta função, suponha uma caixa de texto, em um formulário, na qual seja informada a idade e, a cada informação, a função seja acionada.
+
+    </br>
+    </br>
+
+<code>
+&ltform&gt &ltinput type=text size=2 maxlength=2 name="tempo" onchange="idade(tempo.value)"&gt &lt/form&gt
+</code>
+
+    </br>
+    </br>
+    observe-se que o parâmetro passado (quando ocorre o evento "onchange") foi o conteúdo da caixa de texto "tempo" (propriedade "value") e que, na função, chamamos de "anos". ou seja, não existe co-relação entre o nome da variável passada e a variável de recepção na função. apenas o conteúdo é passado.
+</p>
+
+
+</br>
+</br>
+
+<p id="troca_pagina"> <a href="javascript-tutorial.html">1</a> / <a href="javascript-tutorial_2.html">2</a> / <a href="javascript-tutorial_2.html" class="ativa">3</a>
+    </br>
+    </br>
+</p>
 
 
 </div>
@@ -197,18 +203,18 @@
 
 <div class="rodape">
 <ul id="nav_rodape">
-    <li><a href="#">INICIO</a></li>
-    <li><a href="#">TUTORIAIS</a></li>
-    <li><a href="#">FERRAMENTAS SEO</a></li>
-    <li><a href="#">QUEM SOU</a></li>
-    <li><a href="#">CONTATO</a></li>
+<li><a href="#">inicio</a></li>
+<li><a href="#">tutoriais</a></li>
+<li><a href="#">ferramentas seo</a></li>
+<li><a href="#">quem sou</a></li>
+<li><a href="#">contato</a></li>
 </ul>
 
-<p>© 2017 Todos os direitos reservados. Site do Luisão WebMaster</p>
+<p>© 2017 todos os direitos reservados. site do luisão webmaster</p>
 
 </div>
 
-<div class="back-to-top" title="Voltar ao topo"></div>
+<div class="back-to-top" title="voltar ao topo"></div>
 
 </body>
 </html>

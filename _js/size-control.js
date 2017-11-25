@@ -2,12 +2,12 @@ $(document).ready(function(){
 
     var i = 1+0.5;
 
-    $("#btnAumentar").click(function(){
+    $(".btnAumentar").click(function(){
         $(".body").css({"font-size": i+"em"});
         i = i + 0.1;
     });
 
-    $("#btnDiminuir").click(function(){
+    $(".btnDiminuir").click(function(){
         i = i-0.1;
         $(".body").css({"font-size": i+"em"})
 

@@ -13,6 +13,7 @@ body{
 
 /* -------------------------- CSS HEADER ----------------------- */
 
+
 div#header{
     position: relative;
     width: 100%;
@@ -64,12 +65,29 @@ ul#nav_topo a.ativa{
     border-bottom: 2.5px solid #0BA4C6;
 }
 
+.size-control{
+    position: absolute;
+    float: inherit;
+    margin: 30px 0px 0px 1230px;
+}
+
+.size-control label{
+    font-family: Roboto;
+    font-size: 20px;
+    margin: 0px 0px 0px 8px;
+    cursor: pointer;
+}
+
+.size-control label:hover{
+    color: #0BA4C6;
+}
+
 div#box_social{
     position: absolute;
     float: left;
     width: 150px;
     height: 40px;
-    margin: 20px 0px 0px 1180px;
+    margin: 30px 0px 0px 1100px;
 }
 
 .icon{
