@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="_css/javascript-tutorial.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="_js/menu-menor.js"></script>
+    <script src="_js/back-to-top.js"></script>
+
+    <title>Tutorial Java Script | Luisão WebMaster</title>
+</head>
+<body>
+
+<div id="header">
+    <h1><a href="index.html"><img src="_images/logo.png"> </a></h1>
+    <ul id="nav_topo">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="tutorial.html" class="ativa">TUTORIAIS</a></li>
+        <li><a href="ferramentas-seo.html">FERRAMENTAS SEO</a></li>
+        <li><a href="#">SOLUÇÕES</a></li>
+        <li><a href="quemsou.html">QUEM SOU</a></li>
+        <li><a href="#">CONTATO</a></li>
+    </ul>
+
+    <div id="box_social">
+        <div class="icon">
+            <img src="_images/social_twitter.png" id="twitter" title="Acesse nosso Twitter">
+        </div>
+        <div class="icon">
+            <img src="_images/social_facebook.png " id="facebook" title="Acesse nosso Facebook">
+        </div>
+        <div class="icon">
+            <img src="_images/social_googleplus.png" id="google-plus" title="Acesse nosso Google+">
+        </div>
+    </div>
+</div>
+
+<div id="header-menor">
+    <ul id="nav_topo-menor">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="tutorial.html" class="ativa">TUTORIAIS</a></li>
+        <li><a href="ferramentas-seo.html">FERRAMENTAS SEO</a></li>
+        <li><a href="#">SOLUÇÕES</a></li>
+        <li><a href="quemsou.html">QUEM SOU</a></li>
+        <li><a href="#">CONTATO</a></li>
+    </ul>
+</div>
+
+<div class="content">
+    <div class="topo_content">
+        <h1>Tutorial Java Script</h1>
+        <h2>Você está em: <a href="javascript-tutorial.html">Tutoriais</a> &gt&gt <b>Tutorial Java Script</b></h2>
+    </div>
+
+    <div class="miolo_content">
+        <img src="_images/javascript_1.png">
+
+        <h1>Introdução</h1>
+
+        <p>JavaScript é uma linguagem que permite injetar lógica em páginas escritas em HTML (HiperText Mark-up Language). As páginas HTML podem ser escritas utilizando-se editores de texto, como o NotePad, Write, etc. Porém, existem editores próprios para gerar HTML, tais como HotDog e (mais recomendado) Microsoft FrontPage.
+            Os parágrafos de lógica do javaScript podem estar "soltos" ou atrelados a ocorrência de eventos.
+            Os parágrafos soltos são executados na sequência em que aparecem na página (documento) e os atrelados a eventos são executados apenas quando o evento ocorre. Para inserir parágrafos de programação dentro do HTML é necessário identificar o início e o fim do set de JavaScript, da seguinte forma:
+        </p>
+
+        <p><code> &ltSCRIPT&gt Set de instruções &lt/SCRIPT&gt</code></p>
+
+        <p>Este procedimento pode ser adotado em qualquer local da página. Entretanto, para melhor visualização e facilidade de manutenção, recomenda-se que toda a lógica seja escrita no início do documento, através da criação de funções a serem invocadas quando se fizer necessário (normalmente atreladas a eventos).
+            Se a lógica é escrita a partir de um determinado evento, não é necessário o uso dos comandos &ltSCRIPT&gt e &lt/SCRIPT&gt. Os comandos JavaScript são sensíveis ao tipo de letra (maiúsculas e minúsculas) em sua sintaxe. Portanto, é necessário que seja obedecida a forma de escrever os comandos, de acordo com a forma apresentada ao longo deste manual. Caso seja cometido algum erro de sintaxe quando da escrita de um comando, o JavaScript interpretará, o que seria um comando, como sendo o nome de uma variável.</p>
+
+        <h1>Operadores matemáticos</h1>
+
+        <p> São operadores a serem utilizados em cálculos, referências de indexadores e manuseio de strings.
+            Ao longo do manual estes operadores serão largamente utilizados, dando, assim, uma noção mais
+            precisa do seu potencial.
+
+            </br>
+            </br>
+
+            <b>+</b>   - adição de valor e concatenação de strings </br>
+            <b>-</b>   - subtração de valores </br>
+            <b>*</b>   - multiplicação de valores </br>
+            <b>/</b>   - divisão de valores </br>
+            <b>%</b>   - obtém o resto de uma divisão:
+
+            </br>
+            </br>
+
+            Exemplo: </br>
+            150 % 13 retornará 7 </br>
+            7 % 3 retornará 1 </br>
+            += - concatena /adiciona ao string/valor já existente. Ou seja: </br>
+            x += y é o mesmo que x = x + y </br>
+            Da mesma forma podem ser utilizados: -= , *= , /= ou %= </br>
+            Um contador pode ser simplificado utilizando-se: </br>
+            X++ ou X-- o que equivale as expressões: </br>
+            X = X + 1 ou X = X - 1 respectivamente. </br>
+            Para inverter sinal: X = -X negativo para positivo ou positivo para negativo.</p>
+
+        <h1>Operadores Lógicos</h1>
+
+        <p>São operadores a serem utilizados em comandos condicionais, tais como: IF , FOR e WHILE.
+            Os comandos condicionais serão vistos mais a frente.
+            </br>
+            </br>
+
+            <b> == </b> Igual </br>
+            <b> != </b> - Diferente </br>
+            <b> >- </b> Maior </br>
+            <b> >= </b> - Maior ou Igual </br>
+            <b> &< </b> - Menor </br>
+            <b> <= </b> - Menor ou Igual </br>
+            <b> && </b> - E </br>
+            <b> || </b> - Ou </br>
+        </p>
+
+        <h1>Controles Especiais</h1>
+
+        <p>
+            </br>
+            <b> \b </b> - backspace </br>
+            <b> \f </b> - form feed </br>
+            <b> \n </b> - new line caracters </br>
+            <b> \r </b> - carriage return </br>
+            <b> \t </b> - tab characters </br>
+            <b> // </b> - Linha de comentário </br>
+            <b> /*....*/ </b> - Delimitadores para inserir um texto com mais de uma linha como comentário.
+            </br>
+            </br>
+            Os delimitadores naturais para uma string são " ou '. Caso seja necessário a utilização destes caracteres como parte da string, utilize \ precedendo " ou '. </br>
+
+            Ex. alert ("Cuidado com o uso de \" ou \' em uma string")
+        </p>
+            </br>
+            </br>
+
+        <p id="troca_pagina"> <a href="javascript-tutorial.html">1</a> / <a href="javascript-tutorial_2.html">2</a>
+            </br>
+            </br>
+        </p>
+
+
+    </div>
+
+</div>
+
+<div class="rodape">
+    <ul id="nav_rodape">
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#">TUTORIAIS</a></li>
+        <li><a href="#">FERRAMENTAS SEO</a></li>
+        <li><a href="#">QUEM SOU</a></li>
+        <li><a href="#">CONTATO</a></li>
+    </ul>
+
+    <p>© 2017 Todos os direitos reservados. Site do Luisão WebMaster</p>
+
+</div>
+
+<div class="back-to-top" title="Voltar ao topo"></div>
+
+</body>
+</html>
