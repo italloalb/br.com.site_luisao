@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="_css/javascript-tutorial.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="_js/menu-menor.js"></script>
+<script src="_js/back-to-top.js"></script>
+
+<title>Tutorial Java Script | Luisão WebMaster</title>
+</head>
+<body>
+
+<div id="header">
+<h1><a href="index.html"><img src="_images/logo.png"> </a></h1>
+<ul id="nav_topo">
+    <li><a href="index.html">INICIO</a></li>
+    <li><a href="tutorial.html" class="ativa">TUTORIAIS</a></li>
+    <li><a href="ferramentas-seo.html">FERRAMENTAS SEO</a></li>
+    <li><a href="#">SOLUÇÕES</a></li>
+    <li><a href="quemsou.html">QUEM SOU</a></li>
+    <li><a href="#">CONTATO</a></li>
+</ul>
+
+<div id="box_social">
+    <div class="icon">
+        <img src="_images/social_twitter.png" id="twitter" title="Acesse nosso Twitter">
+    </div>
+    <div class="icon">
+        <img src="_images/social_facebook.png " id="facebook" title="Acesse nosso Facebook">
+    </div>
+    <div class="icon">
+        <img src="_images/social_googleplus.png" id="google-plus" title="Acesse nosso Google+">
+    </div>
+</div>
+</div>
+
+<div id="header-menor">
+<ul id="nav_topo-menor">
+    <li><a href="index.html">INICIO</a></li>
+    <li><a href="tutorial.html" class="ativa">TUTORIAIS</a></li>
+    <li><a href="ferramentas-seo.html">FERRAMENTAS SEO</a></li>
+    <li><a href="#">SOLUÇÕES</a></li>
+    <li><a href="quemsou.html">QUEM SOU</a></li>
+    <li><a href="#">CONTATO</a></li>
+</ul>
+</div>
+
+<div class="content">
+<div class="topo_content">
+    <h1>Tutorial Java Script</h1>
+    <h2>Você está em: <a href="javascript-tutorial.html">Tutoriais</a> &gt&gt <b>Tutorial Java Script</b></h2>
+</div>
+
+<div class="miolo_content">
+    <img src="_images/javascript_1.png">
+
+    <h1>Funções Intrínsecas</h1>
+
+    <p>São funções embutidas na própria linguagem. A sintaxe geral é a seguinte:</br></br>
+
+        Result = função (informação a ser processada)</br></br>
+
+        - eval = Calcula o conteúdo da string</br>
+        - parseInt - Transforma string em inteiro</br>
+        - parseFloat - Transforma string em número com ponto flutuante</br>
+        - date() - Retorna a data e a hora (veja o capítulo manipulando datas)</br></br>
+
+        ex1: Result = eval ( " (10 * 20) + 2 - 8")</br></br>
+
+        ex2: Result = eval (string)</br></br>
+
+        No primeiro exemplo Result seria igual a 194. No segundo, depende do conteúdo da string, que também pode ser o conteúdo (value) de uma caixa de texto.</br></br>
+
+        - Funções tipicamente Matemáticas:</br></br>
+
+        Math.abs(número) - retorna o valor absoluto do número (ponto flutuante)</br>
+        Math.ceil(número) - retorna o próximo valor inteiro maior que o número</br>
+        Math.floor(número) - retorna o próximo valor inteiro menor que o número</br>
+        Math.round(número) - retorna o valor inteiro, arredondado, do número</br>
+        Math.pow(base, expoente) - retorna o cálculo do exponencial</br>
+        Math.max(número1, número2) - retorna o maior número dos dois fornecidos</br>
+        Math.min(número1, número2) - retorna o menor número dos dois fornecidos</br>
+        Math.sqrt(número) - retorna a raiz quadrada do número</br>
+        Math.SQRT2 - retorna a raiz quadrada de 2 (aproximadamente 1.414)</br>
+        Math.SQRT_2 - retorna a raiz quadrada de 1/2 (aproximadamente 0.707)</br>
+        Math.sin(número) - retorna o seno de um número (anglo em radianos)</br>
+        Math.asin(número) - retorna o arco seno de um número (em radianos)</br>
+        Math.cos(número) - retorna o cosseno de um número (anglo em radianos)</br>
+        Math.acos(número) - retorna o arco cosseno de um número (em radianos)</br>
+        Math.tan(número) - retorna a tangente de um número (anglo em radianos)</br>
+        Math.atan(número) - retorna o arco tangente de um número (em radianos)</br>
+        Math.pi retorna o valor de PI (aproximadamente 3.14159)</br>
+        Math.log(número) - retorna o logarítmo de um número</br>
+        Math.E - retorna a base dos logarítmos naturais (aproximadamente 2.718)</br>
+        Math.LN2 - retorna o valor do logarítmo de 2 (aproximadamente 0.693)</br>
+        Math.LOG2E - retorna a base do logarítmo de 2 (aproximadamente 1.442)</br>
+        Math.LN10 retorna o valor do logarítmo de 10 (aproximadamente 2.302)</br>
+        Math.LOG10E - retorna a base do logarítmo de 10 (aproximadamente 0.434)</br></br>
+
+        Observação:</br>
+        Em todas as funções, quando apresentamos a expressão "(número)", na verdade queremos
+        nos referir a um argumento que será processado pela função e que poderá ser: um número,
+        uma variável ou o conteúdo de um objeto (propriedade value).</br>
+    </p>
+
+    <h1>Criando Novas Instâncias</h1>
+
+    <p> Através do operador new podem ser criadas novas instâncias a objetos já existentes, mudando o
+        seu conteúdo, porém, mantendo suas propriedades. </br></br>
+
+        A sintaxe geral é a seguinte:</br></br>
+
+        NovoObjeto = new ObjetoExistente (parâmetros)</br></br>
+
+        Ex1.</br></br>
+        MinhaData = new Date ()</br></br>
+
+        MinhaData passou a ser um objeto tipo Date, com o mesmo conteúdo existente em Date</br>
+        (data e hora atual)</br></br>
+
+        Ex2:</br>
+        MinhaData = new Date(1996, 05, 27)</br></br>
+
+        MinhaData passou a ser um objeto tipo Date, porém, com o conteúdo de uma nova data.</br></br>
+
+        Ex3:</br></br>
+        Suponha a existência do seguinte objeto chamado Empresas</br></br>
+
+        function Empresas (Emp, Nfunc, Prod)</br>
+        { this.Emp = Emp</br>
+        this.Nfunc = Nfunc</br>
+        this.Prod = Prod }</br></br>
+
+        Podemos criar novas instâncias, usando a mesma estrutura, da seguinte forma:</br></br>
+
+        Elogica = new Empresas("Elogica", "120", "Serviços")</br>
+        Pitaco = new Empresas("Pitaco", "35", "Software")</br>
+        Corisco = new Empresas("Corisco", "42", "Conectividade")</br></br>
+
+        Assim, a variável Elogica.Nfunc terá o seu conteúdo igual a 120</br>
+    </p>
+
+    <p id="troca_pagina"> <a href="javascript-tutorial.html" >1</a> / <a href="javascript-tutorial_2.html">2</a> / <a href="javascript-tutorial_3.html">3</a>
+        / <a href="javascript-tutorial_4.html" class="ativa" >4</a>
+        </br>
+        </br>
+    </p>
+
+
+</div>
+
+</div>
+
+<div class="rodape">
+<ul id="nav_rodape">
+    <li><a href="#">INICIO</a></li>
+    <li><a href="#">TUTORIAIS</a></li>
+    <li><a href="#">FERRAMENTAS SEO</a></li>
+    <li><a href="#">QUEM SOU</a></li>
+    <li><a href="#">CONTATO</a></li>
+</ul>
+
+<p>© 2017 Todos os direitos reservados. Site do Luisão WebMaster</p>
+
+</div>
+
+<div class="back-to-top" title="Voltar ao topo"></div>
+
+</body>
+</html>
