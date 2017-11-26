@@ -223,14 +223,46 @@ ul#nav_topo-menor a.ativa{
 }
 
 .box_solucoes img{
-    margin: 10px 0px 10px 125px;
+    margin: 10px 0px 10px 130px;
+    width: 45px;
+    height: 54px;
 }
 
 .box_solucoes h1{
     margin: 0px 10px;
     text-align: center;
-    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #6F6F6F;
 }
+
+.box_solucoes a{
+    text-decoration: none;
+}
+
+.box_solucoes p{
+    text-align: center;
+    color: #868686;
+    margin: 20px 0px 0px 0px;
+    font-size: 13px;
+}
+
+.box_solucoes .botton{
+    margin: -10px 80px 0px 80px;
+    padding: 10px 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: #2e2e2e;
+    border-radius: 0.8em;
+}
+
+.box_solucoes .botton:hover{
+    background-color: #0BA4C6;
+    transition: .5s;
+}
+
 
 /* -------------------------- CSS RODAPÉ ----------------------- */
 
