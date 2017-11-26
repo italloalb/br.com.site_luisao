@@ -1,0 +1,289 @@
+*{
+    margin: -1px;
+    padding: 0px;
+}
+
+
+/* -------------------------- CSS BODY ----------------------- */
+
+body{
+    font-family: Lato;
+    clear: left;
+}
+
+/* -------------------------- CSS HEADER ----------------------- */
+
+
+div#header{
+    position: relative;
+    width: 100%;
+    height: 170px;
+    display: block;
+    background-image: url("../_images/bg_header.png");
+    border-bottom: 2px solid #0BA4C6;
+    box-shadow: 0px 20px 60px rgba(0,0,0,.3);
+    margin: 0px 0px 0px 0px;
+    clear: left;
+}
+
+div#header h1 img{
+    position: relative;
+    padding: 4px 0px 0px 0px;
+}
+
+div#header h1{
+    padding: 2px 0px 0px 80px;
+    display: block;
+    float: left;
+}
+
+ul#nav_topo{
+    list-style: none;
+    padding-left: 0px;
+    float: left;
+    margin-left: 380px;
+    padding-top: 110px;
+}
+
+ul#nav_topo li{
+    display: inline-block;
+    margin: 10px;
+}
+
+ul#nav_topo a{
+    text-decoration: none;
+    color: white;
+    font-size: 16.5px;
+    padding-bottom: 4px;
+}
+
+ul#nav_topo a:hover{
+    border-bottom: 2.5px solid white;
+}
+
+ul#nav_topo a.ativa{
+    border-bottom: 2.5px solid #0BA4C6;
+}
+
+.size-control{
+    position: absolute;
+    float: inherit;
+    margin: 30px 0px 0px 1230px;
+}
+
+.size-control label{
+    font-family: Roboto;
+    font-size: 20px;
+    margin: 0px 0px 0px 8px;
+    cursor: pointer;
+}
+
+.size-control label:hover{
+    color: #0BA4C6;
+}
+
+div#box_social{
+    position: absolute;
+    float: left;
+    width: 150px;
+    height: 40px;
+    margin: 30px 0px 0px 1100px;
+}
+
+.icon{
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+
+}
+
+.icon img#twitter{
+    background-color: black;
+    border-radius: 15px;
+}
+
+.icon img#twitter:hover{
+    cursor: pointer;
+    background-color: #0BA4C6;
+    transition: .2s;
+}
+
+.icon img#facebook{
+    background-color: black;
+    border-radius: 15px;
+}
+
+.icon img#facebook:hover{
+    cursor: pointer;
+    background-color: #3B5998;
+    transition: .2s;
+}
+
+.icon img#google-plus{
+    background-color: black;
+    border-radius: 15px;
+}
+
+.icon img#google-plus:hover{
+    cursor: pointer;
+    background-color: #F34A38;
+    transition: .2s;
+}
+
+/* -------------------------- CSS HEADER-MENOR ----------------------- */
+
+div#header-menor{
+    margin: -1px -3px 0px 0px;
+    padding: 0;
+    width: 100%;
+    height: 57px;
+    background-image: url("../_images/bg_header2.png");
+    position: fixed;
+    top: 0;
+    border-bottom: 2px solid #0BA4C6;
+    box-shadow: 0px 10px 25px rgba(0,0,0,.3);
+    z-index: 99999;
+}
+
+ul#nav_topo-menor{
+    list-style: none;
+    padding-left: 0px;
+    float: left;
+    margin-left: 697px;
+    padding-top: 12px;
+}
+
+ul#nav_topo-menor li{
+    display: inline-block;
+    margin: 0px 0px 0px 15px;
+}
+
+ul#nav_topo-menor a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 4px;
+}
+
+ul#nav_topo-menor a:hover{
+    border-bottom: 2.5px solid black;
+}
+
+ul#nav_topo-menor a.ativa{
+    border-bottom: 2.5px solid #0BA4C6;
+}
+
+/* -------------------------- CSS CONTENT ----------------------- */
+
+.content{
+    width: 100%;
+    height: 690px;
+    background-image: url("../_images/bg-branco.png");
+    background-attachment: fixed;
+}
+
+.topo_content h1{
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    font-family: Lato;
+    font-size: 45px;
+    color: #0BA4C6;
+}
+
+.topo_content h2{
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 10px;
+}
+
+.topo_content h2 a{
+    text-decoration: none;
+    color: #0BA4C6;
+}
+
+.container{
+    width: 1100px;
+    height: 500px;
+    margin: 40px auto;
+    padding: 0px 0px 0px 130px;
+}
+
+.box_solucoes{
+    position:relative;
+    margin: 20px 10px;
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: #F5F5F5;
+    display: inline-block;
+    border: 4px solid #ffffff;
+}
+
+.box_solucoes img{
+    margin: 10px 0px 10px 125px;
+}
+
+.box_solucoes h1{
+    margin: 0px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* -------------------------- CSS RODAPÉ ----------------------- */
+
+.rodape{
+    width: 100%;
+    height: 200px;
+    background-color: #1B1B1B;
+    border-top: 3px solid #0BA4C6;
+}
+
+ul#nav_rodape{
+    list-style: none;
+    text-align: center;
+    padding: 70px 0px 0px 0px;
+}
+
+ul#nav_rodape li{
+    display: inline-block;
+}
+
+ul#nav_rodape a{
+    text-decoration: none;
+    margin: 0px 0px 0px 20px;
+    color: white;
+    font-family: Lato;
+    font-size: 14px;
+}
+
+ul#nav_rodape a:hover{
+    color: #0BA4C6;
+    transition: .5s;
+}
+
+.rodape p{
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    font-size: 12px;
+    color: #4C4C4C;
+}
+
+/* -------------------------- BACK-TO-TOP ----------------------- */
+
+.back-to-top{
+    background-image: url("../_images/back-to-top-botton.png");
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+.back-to-top:hover{
+    cursor: pointer;
+    background-position: 0 -40px;
+}
