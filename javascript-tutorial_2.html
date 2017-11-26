@@ -1,287 +1,287 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="_css/javascript-tutorial.css">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<script src="_js/menu-menor.js"></script>
-<script src="_js/back-to-top.js"></script>
-<script src="_js/size-control.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="_css/javascript-tutorial.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="_js/menu-menor.js"></script>
+    <script src="_js/back-to-top.js"></script>
+    <script src="_js/size-control.js"></script>
 
-<title>Tutorial Java Script | Luisão WebMaster</title>
+    <title>Tutorial Java Script | Luisão WebMaster</title>
 </head>
 <body class="body">
 
 <div id="header">
-<h1><a href="index.html"><img src="_images/logo.png"> </a></h1>
-<ul id="nav_topo">
-<li><a href="index.html">INICIO</a></li>
-<li><a href="tutorial.html" class="ativa">TUTORIAIS</a></li>
-<li><a href="ferramentas-seo.html">FERRAMENTAS SEO</a></li>
-<li><a href="#">SOLUÇÕES</a></li>
-<li><a href="quemsou.html">QUEM SOU</a></li>
-<li><a href="contato.html">CONTATO</a></li>
-</ul>
+    <h1><a href="index.html"><img src="_images/logo.png"> </a></h1>
+    <ul id="nav_topo">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="tutorial.html" class="ativa">TUTORIAIS</a></li>
+        <li><a href="ferramentas-seo.html">FERRAMENTAS SEO</a></li>
+        <li><a href="#">SOLUÇÕES</a></li>
+        <li><a href="quemsou.html">QUEM SOU</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+    </ul>
 
-<div id="box_social">
-<div class="icon">
-<img src="_images/social_twitter.png" id="twitter" title="Acesse nosso Twitter">
-</div>
-<div class="icon">
-<img src="_images/social_facebook.png " id="facebook" title="Acesse nosso Facebook">
-</div>
-<div class="icon">
-<img src="_images/social_googleplus.png" id="google-plus" title="Acesse nosso Google+">
-</div>
-</div>
+    <div id="box_social">
+        <div class="icon">
+            <img src="_images/social_twitter.png" id="twitter" title="Acesse nosso Twitter">
+        </div>
+        <div class="icon">
+            <img src="_images/social_facebook.png " id="facebook" title="Acesse nosso Facebook">
+        </div>
+        <div class="icon">
+            <img src="_images/social_googleplus.png" id="google-plus" title="Acesse nosso Google+">
+        </div>
+    </div>
 
-<div class="size-control">
-<label class="btnAumentar" title="Aumentar tamanho da fonte">A<sup>+</sup></label>
-<label class="btnDiminuir" title="Diminuir tamanho da fonte">A<sup>-</sup></label>
-</div>
+    <div class="size-control">
+        <label class="btnAumentar" title="Aumentar tamanho da fonte">A<sup>+</sup></label>
+        <label class="btnDiminuir" title="Diminuir tamanho da fonte">A<sup>-</sup></label>
+    </div>
 
 </div>
 
 <div id="header-menor">
-<ul id="nav_topo-menor">
-<li><a href="index.html">INICIO</a></li>
-<li><a href="tutorial.html" class="ativa">TUTORIAIS</a></li>
-<li><a href="ferramentas-seo.html">FERRAMENTAS SEO</a></li>
-<li><a href="#">SOLUÇÕES</a></li>
-<li><a href="quemsou.html">QUEM SOU</a></li>
-<li><a href="#">CONTATO</a></li>
-</ul>
+    <ul id="nav_topo-menor">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="tutorial.html" class="ativa">TUTORIAIS</a></li>
+        <li><a href="ferramentas-seo.html">FERRAMENTAS SEO</a></li>
+        <li><a href="#">SOLUÇÕES</a></li>
+        <li><a href="quemsou.html">QUEM SOU</a></li>
+        <li><a href="#">CONTATO</a></li>
+    </ul>
 </div>
 
 <div class="content">
-<div class="topo_content">
-<h1>Tutorial Java Script</h1>
-<h2>Você está em: <a href="javascript-tutorial.html">Tutoriais</a> &gt&gt <b>Tutorial Java Script</b></h2>
-</div>
+    <div class="topo_content">
+        <h1>Tutorial Java Script</h1>
+        <h2>Você está em: <a href="javascript-tutorial.html">Tutoriais</a> &gt&gt <b>Tutorial Java Script</b></h2>
+    </div>
 
-<div class="miolo_content">
-<img src="_images/javascript_1.png">
-
-
-<h1>Controles Condicionais</h1>
-
-<p> São comandos que condicionam a execução de uma certa tarefa à veracidade ou não de uma
-determinada condição, ou enquanto determinada condição for verdadeira.
-São eles:
-</p>
-
-</br>
-
-<h2>Comando IF</h2>
-</br> <code>
-if (condição){</br>
-    ação para condição satisfeita</br>
-    }else{ </br>
-    ação para condição não satisfeita </br>
-    }</br>
-</code>
-
-</br>
-
-Ex.</br>
-<code>
-if (Idade < 18)</br>
-{Categoria = "Menor" }</br>
-else</br>
-{Categoria = "Maior"}</br>
-</code>
-</br>
-
-<h2>Comando FOR</h2> </br>
-
-<code>
-for ( [inicialização/criação de variável de controle ;]</br>
-[condição ;]</br>
-[incremento da variável de controle] )</br>
-{ ação }</br>
-</code>
-
-</br>
-
-Ex.</br>
-</br>
-<code>
-for (x = 0 ; x <= 10 ; x++)</br>
-{alert ("X igual a " + x) }</br>
-</code>
-
-</br>
-
-<h2>Comando WHILE</h2>
+    <div class="miolo_content">
+        <img src="_images/javascript_1.png">
 
 
-<p>Executa uma ação enquanto determinada condição for verdadeira.</p>
+        <h1>Controles Condicionais</h1>
 
-</br>
-
-<code>
-    while (condição)</br>
-    { ação }</br>
-
-    </br>
-
-    Ex.</br>
-    var contador = 10</br>
-    while (contador > 1)</br>
-    { contador-- }</br>
-</code>
-
-</br>
-
-<p>
-    OBS: Nos comandos FOR e WHILE a diretiva "break" pode ser utilizada para interromper a
-condição principal e sair do loop. Da mesma forma, a diretiva "continue" interrompe uma
-ação (se determinada condição ocorrer) mas volta para o loop.
-    Diretivas/condições entre [ ] significam que são opcionais.
-</p>
-</br>
-</br>
-
-<hr>
-<h1>Eventos</h1>
-
-<p> São fatos que ocorrem durante a execução do sistema, a partir dos quais o programador pode
-    definir ações a serem realizadas pelo programa. Abaixo apresentamos a lista dos eventos possíveis, indicando os momentos em que os mesmos
-    podem ocorrer, bem como, os objetos passíveis de sua ocorrência.
-    </br>
-    </br>
-    <b>onload</b> - Ocorre na carga do documento. Ou seja, só ocorre no BODY do documento.
-    </br>
-    <b>onunload</b> - Ocorre na descarga (saída) do documento. Também só ocorre no BODY.
-    </br>
-    <b>onchange</b> - Ocorre quando o objeto perde o focus e houve mudança de conteúdo.
-    válido para os objetos Text, Select e Textarea.
-    </br>
-    <b>onblur</b> - Ocorre quando o objeto perde o focus, independente de ter havido mudança.
-    válido para os objetos Text, Select e Textarea.
-    </br>
-    <b>onfocus</b> - Ocorre quando o objeto recebe o focus.
-    válido para os objetos Text, Select e Textarea.
-    </br>
-    <b>onclick</b> - Ocorre quando o objeto recebe um Click do Mouse.
-    válido para os objetos Buton, Checkbox, Radio, Link, Reset e Submit.
-    </br>
-    <b>onmouseover</b> - Ocorre quando o ponteiro do mouse passa por sobre o objeto.
-    válido apenas para Link.
-    </br>
-    <b>onselect</b> - Ocorre quando o objeto é selecionado.
-    válido para os objetos Text e Textarea.
-    </br>
-    <b>onsubmit</b> - Ocorre quando um botão tipo Submit recebe um click do mouse.
-    válido apenas para o Form.</p>
-    </br>
-    </br>
-
-<hr>
-    <h1>Criando Variáveis</h1>
-
-    <p>A variável é criada automaticamente, pela simples associação de valores a mesma. Ex: NovaVariavel = "Jose"</br>
-
-        Foi criada a variável de nome NovaVariavel que, passou a conter a string Jose. As variáveis podem ser Locais ou Globais. As variáveis que são criadas dentro de uma função são Locais e referenciáveis apenas dentro da função. As variáveis criadas fora de funções são Globais, podendo serem referenciadas em qualquer parte do documento.</br>
-
-        Desta forma, variáveis que precisam ser referenciadas por várias funções ou em outra parte do documento, precisam ser definidas como globais. Embora não seja recomendável, em uma função, pode ser definida uma variável local com o mesmo nome de uma variável global. Para isso utiliza-se o método de definição var.</br>
+        <p> São comandos que condicionam a execução de uma certa tarefa à veracidade ou não de uma
+            determinada condição, ou enquanto determinada condição for verdadeira.
+            São eles:
+        </p>
 
         </br>
+
+        <h2>Comando IF</h2>
+        </br> <code>
+        if (condição){</br>
+        ação para condição satisfeita</br>
+        }else{ </br>
+        ação para condição não satisfeita </br>
+        }</br>
+    </code>
+
+        </br>
+
         Ex.</br>
-        Variável Global : MinhaVariavel = ""</br>
-        Variável Local : var MinhaVariavel = ""</br>
-    </p>
-
-</p>
-
-<hr>
-    <h1>Escrevendo no Documento</h1>
-
-    <p>
-        O JavaScript permite que o programador escreva linhas dentro de uma página (documento),
-        através do método write. As linhas escritas desta forma, podem conter textos, expressões
-        JavaScript e comandos Html. As linhas escritas através deste método aparecerão no ponto
-        da tela onde o comando for inserido.
-
-        </br>
-        </br>
-
-        Ex:</br>
         <code>
-            &ltscript&gt</br>
+            if (Idade < 18)</br>
+            {Categoria = "Menor" }</br>
+            else</br>
+            {Categoria = "Maior"}</br>
+        </code>
+        </br>
+
+        <h2>Comando FOR</h2> </br>
+
+        <code>
+            for ( [inicialização/criação de variável de controle ;]</br>
+            [condição ;]</br>
+            [incremento da variável de controle] )</br>
+            { ação }</br>
+        </code>
+
+        </br>
+
+        Ex.</br>
+        </br>
+        <code>
+            for (x = 0 ; x <= 10 ; x++)</br>
+            {alert ("X igual a " + x) }</br>
+        </code>
+
+        </br>
+
+        <h2>Comando WHILE</h2>
+
+
+        <p>Executa uma ação enquanto determinada condição for verdadeira.</p>
+
+        </br>
+
+        <code>
+            while (condição)</br>
+            { ação }</br>
+
+            </br>
+
+            Ex.</br>
+            var contador = 10</br>
+            while (contador > 1)</br>
+            { contador-- }</br>
+        </code>
+
+        </br>
+
+        <p>
+            OBS: Nos comandos FOR e WHILE a diretiva "break" pode ser utilizada para interromper a
+            condição principal e sair do loop. Da mesma forma, a diretiva "continue" interrompe uma
+            ação (se determinada condição ocorrer) mas volta para o loop.
+            Diretivas/condições entre [ ] significam que são opcionais.
+        </p>
+        </br>
+        </br>
+
+        <hr>
+        <h1>Eventos</h1>
+
+        <p> São fatos que ocorrem durante a execução do sistema, a partir dos quais o programador pode
+            definir ações a serem realizadas pelo programa. Abaixo apresentamos a lista dos eventos possíveis, indicando os momentos em que os mesmos
+            podem ocorrer, bem como, os objetos passíveis de sua ocorrência.
+            </br>
+            </br>
+            <b>onload</b> - Ocorre na carga do documento. Ou seja, só ocorre no BODY do documento.
+            </br>
+            <b>onunload</b> - Ocorre na descarga (saída) do documento. Também só ocorre no BODY.
+            </br>
+            <b>onchange</b> - Ocorre quando o objeto perde o focus e houve mudança de conteúdo.
+            válido para os objetos Text, Select e Textarea.
+            </br>
+            <b>onblur</b> - Ocorre quando o objeto perde o focus, independente de ter havido mudança.
+            válido para os objetos Text, Select e Textarea.
+            </br>
+            <b>onfocus</b> - Ocorre quando o objeto recebe o focus.
+            válido para os objetos Text, Select e Textarea.
+            </br>
+            <b>onclick</b> - Ocorre quando o objeto recebe um Click do Mouse.
+            válido para os objetos Buton, Checkbox, Radio, Link, Reset e Submit.
+            </br>
+            <b>onmouseover</b> - Ocorre quando o ponteiro do mouse passa por sobre o objeto.
+            válido apenas para Link.
+            </br>
+            <b>onselect</b> - Ocorre quando o objeto é selecionado.
+            válido para os objetos Text e Textarea.
+            </br>
+            <b>onsubmit</b> - Ocorre quando um botão tipo Submit recebe um click do mouse.
+            válido apenas para o Form.</p>
+        </br>
+        </br>
+
+        <hr>
+        <h1>Criando Variáveis</h1>
+
+        <p>A variável é criada automaticamente, pela simples associação de valores a mesma. Ex: NovaVariavel = "Jose"</br>
+
+            Foi criada a variável de nome NovaVariavel que, passou a conter a string Jose. As variáveis podem ser Locais ou Globais. As variáveis que são criadas dentro de uma função são Locais e referenciáveis apenas dentro da função. As variáveis criadas fora de funções são Globais, podendo serem referenciadas em qualquer parte do documento.</br>
+
+            Desta forma, variáveis que precisam ser referenciadas por várias funções ou em outra parte do documento, precisam ser definidas como globais. Embora não seja recomendável, em uma função, pode ser definida uma variável local com o mesmo nome de uma variável global. Para isso utiliza-se o método de definição var.</br>
+
+            </br>
+            Ex.</br>
+            Variável Global : MinhaVariavel = ""</br>
+            Variável Local : var MinhaVariavel = ""</br>
+        </p>
+
+        </p>
+
+        <hr>
+        <h1>Escrevendo no Documento</h1>
+
+        <p>
+            O JavaScript permite que o programador escreva linhas dentro de uma página (documento),
+            através do método write. As linhas escritas desta forma, podem conter textos, expressões
+            JavaScript e comandos Html. As linhas escritas através deste método aparecerão no ponto
+            da tela onde o comando for inserido.
+
+            </br>
+            </br>
+
+            Ex:</br>
+            <code>
+                &ltscript&gt</br>
                 valor = 30</br>
                 document.write ("Minha primeira linha")</br>
                 document.write ("Nesta linha aparecerá o resultado de : " + (10 * 10 + valor))</br>
-            &lt/script&gt
-        </code>
-    </p>
+                &lt/script&gt
+            </code>
+        </p>
 
-    <p>
-        A idéia do exemplo acima é escrever duas linhas. Entretanto o método write não insere mudança de linha, o que provocará o aparecimento de apenas uma linha com os dois textos emendados.
-        Para evitar este tipo de ocorrência, existe o método writeln que escreve uma linha e espaceja para a seguinte. Entretanto, em nossos testes, este comando não surtiu efeito,obtendo-se o mesmo resultado do método write. A solução encontrada para esta situação foi a utilização do comando de mudança de parágrafo da linguagem Html.
+        <p>
+            A idéia do exemplo acima é escrever duas linhas. Entretanto o método write não insere mudança de linha, o que provocará o aparecimento de apenas uma linha com os dois textos emendados.
+            Para evitar este tipo de ocorrência, existe o método writeln que escreve uma linha e espaceja para a seguinte. Entretanto, em nossos testes, este comando não surtiu efeito,obtendo-se o mesmo resultado do método write. A solução encontrada para esta situação foi a utilização do comando de mudança de parágrafo da linguagem Html.
+
+            </br>
+            </br>
+
+            Ex:
+
+            </br>
+            </br>
+
+            <code>
+                &ltscript&gt </br>
+                valor = 30 </br>
+                document.write ("&lt p &gt Minha primeira linha &lt /p &gt") </br>
+                document.write ("&lt p &gt Nesta linha aparecerá o resultado de : " + (10 * 10 + valor) + " &lt /p &gt") </br>
+                &lt/script&gt
+            </code>
+        </p>
+
+        <p>
+            Isto resolve a questão da mudança de linha, porém, vai gerar uma linha em branco, entre cada linha, por se tratar de mudança de parágrafo. Caso não seja desejado a existência da linha em branco, a alternativa é utilizar o comando Html &ltbr&gt que apenas muda de linha.
+
+            </br>
+            </br>
+
+            Ex:
+
+            </br>
+            </br>
+
+            <code>
+                &ltscript&gt</br>
+                valor = 30</br>
+                document.write ("&ltbr&gtMinha primeira linha")</br>
+                document.write ("&ltbr&gtNesta linha aparecerá o resultado de : " + (10 * 10 + valor) )</br>
+                &lt/script&gt
+            </code>
+        </p>
 
         </br>
         </br>
 
-        Ex:
-
-        </br>
-        </br>
-
-        <code>
-        &ltscript&gt </br>
-            valor = 30 </br>
-            document.write ("&lt p &gt Minha primeira linha &lt /p &gt") </br>
-            document.write ("&lt p &gt Nesta linha aparecerá o resultado de : " + (10 * 10 + valor) + " &lt /p &gt") </br>
-        &lt/script&gt
-        </code>
-    </p>
-
-    <p>
-        Isto resolve a questão da mudança de linha, porém, vai gerar uma linha em branco, entre cada linha, por se tratar de mudança de parágrafo. Caso não seja desejado a existência da linha em branco, a alternativa é utilizar o comando Html &ltbr&gt que apenas muda de linha.
-
-        </br>
-        </br>
-
-        Ex:
-
-        </br>
-        </br>
-
-        <code>
-        &ltscript&gt</br>
-            valor = 30</br>
-            document.write ("&ltbr&gtMinha primeira linha")</br>
-            document.write ("&ltbr&gtNesta linha aparecerá o resultado de : " + (10 * 10 + valor) )</br>
-        &lt/script&gt
-        </code>
-    </p>
-
-</br>
-</br>
-
-<p id="troca_pagina"> <a href="javascript-tutorial.html">1</a> / <a href="javascript-tutorial_2.html" class="ativa">2</a> / <a href="javascript-tutorial_3.html">3</a>
-</br>
-</br>
-</p>
+        <p id="troca_pagina"> <a href="javascript-tutorial.html">1</a> / <a href="javascript-tutorial_2.html" class="ativa">2</a> / <a href="javascript-tutorial_3.html">3</a>
+            </br>
+            </br>
+        </p>
 
 
-</div>
+    </div>
 
 </div>
 
 <div class="rodape">
-<ul id="nav_rodape">
-<li><a href="index.html" class="ativa">INICIO</a></li>
-<li><a href="tutorial.html">TUTORIAIS</a></li>
-<li><a href="ferramentas-seo.html">FERRAMENTAS SEO</a></li>
-<li><a href="#">SOLUÇÕES</a></li>
-<li><a href="quemsou.html">QUEM SOU</a></li>
-<li><a href="contato.html">CONTATO</a></li>
-</ul>
+    <ul id="nav_rodape">
+        <li><a href="index.html" class="ativa">INICIO</a></li>
+        <li><a href="tutorial.html">TUTORIAIS</a></li>
+        <li><a href="ferramentas-seo.html">FERRAMENTAS SEO</a></li>
+        <li><a href="#">SOLUÇÕES</a></li>
+        <li><a href="quemsou.html">QUEM SOU</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+    </ul>
 
-<p>© 2017 Todos os direitos reservados. Site do Luisão WebMaster</p>
+    <p>© 2017 Todos os direitos reservados. Site do Luisão WebMaster</p>
 
 </div>
 
