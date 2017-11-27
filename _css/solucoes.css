@@ -242,7 +242,7 @@ ul#nav_topo-menor a.ativa{
 
 .box_solucoes p{
     text-align: center;
-    color: #868686;
+    color: darkgrey;
     margin: 20px 0px 0px 0px;
     font-size: 13px;
 }
@@ -254,7 +254,7 @@ ul#nav_topo-menor a.ativa{
     font-size: 15px;
     text-align: center;
     color: white;
-    background-color: #2e2e2e;
+    background-color: darkgrey;
     border-radius: 0.8em;
 }
 
